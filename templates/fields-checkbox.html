@@ -1,0 +1,14 @@
+<script id="tmpl-nf-field-checkbox" type="text/template">
+  <div class="form-check">
+	<input id="nf-field-{{{ data.id }}}"
+	       name="nf-field-{{{ data.id }}}"
+	       aria-describedby="nf-error-{{{ data.id }}}"
+	       class="{{{ data.renderClasses() }}} nf-element form-check-input"
+	       type="checkbox"
+	       value="1" {{{ data.maybeDisabled() }}}{{{ data.maybeChecked() }}}
+	       aria-labelledby="nf-label-field-{{{ data.id }}}"
+
+			{{{ data.maybeRequired() }}}
+	>
+  </div>
+</script>
