@@ -3,7 +3,7 @@
 * Plugin Name: Ninja Forms - Bootstrap classes
 * Plugin URI:
 * Description: Add bootstrap classes to your forms
-* Version: 3.0.1
+ Version:           3.0.1
 * Author: Tom Broucke
 * Author URI: https://tombroucke.be
 * Text Domain: ninja-forms-bootstrap-classes
